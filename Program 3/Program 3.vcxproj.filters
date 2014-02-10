@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\WalkingBot">
+      <UniqueIdentifier>{6dbfb601-570a-46b3-a542-b3d767e713d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SimbaBot">
+      <UniqueIdentifier>{b7e36da9-87a3-44d9-8fed-a2b08e25d337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\CardinalBot">
+      <UniqueIdentifier>{2c2a5c7e-23d0-4ef5-9437-7a5089a01142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Explosion">
+      <UniqueIdentifier>{5c18dd22-34ed-448d-ba2c-f10f40170b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Sounds">
+      <UniqueIdentifier>{c764393d-bb01-4329-814e-063569ad37e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Music">
+      <UniqueIdentifier>{82ad0f24-9e66-4461-ab62-a80a17ffea19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DumbBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CardinalBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBotList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DumbBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CardinalBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBotList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Program 3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\Robot Dude\Robot0.bmp">
+      <Filter>Resource Files\WalkingBot</Filter>
+    </Image>
+    <Image Include="Images\Robot Dude\Robot1.bmp">
+      <Filter>Resource Files\WalkingBot</Filter>
+    </Image>
+    <Image Include="Images\Robot Dude\Robot2.bmp">
+      <Filter>Resource Files\WalkingBot</Filter>
+    </Image>
+    <Image Include="Images\Robot Dude\Robot3.bmp">
+      <Filter>Resource Files\WalkingBot</Filter>
+    </Image>
+    <Image Include="Images\Robot Dude\Robot4.bmp">
+      <Filter>Resource Files\WalkingBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba0.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba1.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba2.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba3.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba4.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\Simba\simba5.bmp">
+      <Filter>Resource Files\SimbaBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\East\MetalMan_East0.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\East\MetalMan_East1.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\East\MetalMan_East2.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\North\MetalMan_North0.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\North\MetalMan_North1.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\North\MetalMan_North2.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\South\MetalMan_South0.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\South\MetalMan_South1.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\South\MetalMan_South2.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\West\MetalMan_West0.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\West\MetalMan_West1.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\MetalMan\West\MetalMan_West2.bmp">
+      <Filter>Resource Files\CardinalBot</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion0.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion1.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion2.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion3.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion4.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion5.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion6.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion7.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+    <Image Include="Images\Explosions\Explosion8.bmp">
+      <Filter>Resource Files\Explosion</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\TMAN.wav">
+      <Filter>Resource Files\Music</Filter>
+    </Media>
+    <Media Include="Sounds\Explosion.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\ThanksForPlaying.wav">
+      <Filter>Resource Files\Sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
