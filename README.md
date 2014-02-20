@@ -10,7 +10,7 @@ into the battle.  Winners are rewarded and losers are penalized."
 For this project, we were provided a base class (VBot.h/Vbot.cpp), and had to create three different VBots from
 the base class. We also had minimal, yet specific requirements to create a GUI interface to control the VBots as they battle. Any other features added were considered extra credit. 
 
-This project was created using Microsoft Visual Studio 2012
+This project was created using Microsoft Visual Studio 2012.
 
 Extra Features
 --------------
